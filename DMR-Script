@@ -13,5 +13,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/fsclor911-sketch/DMR/
 
 wait(2)
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/fsclor911-sketch/DMR/refs/heads/main/obfuscated%20(1).lua%20(8).txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fsclor911-sketch/DMR/refs/heads/main/DMR-v1"))()
 -----------------------------------/DMR/--
