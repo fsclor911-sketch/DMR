@@ -7,11 +7,11 @@
     \_/\_/           ||| 
 
           Ｗａ７ｅｅｄ
--- تحميل وتشغيل الرابط الأول مباشرة
+--]]
+-----------------------------------/DMR/--
 loadstring(game:HttpGet("https://raw.githubusercontent.com/fsclor911-sketch/DMR/refs/heads/main/AN"))()
 
--- الانتظار لمدة 15 ثانية
 wait(2)
 
--- تحميل وتشغيل الرابط الثاني
 loadstring(game:HttpGet("https://raw.githubusercontent.com/fsclor911-sketch/DMR/refs/heads/main/obfuscated%20(1).lua%20(8).txt"))()
+-----------------------------------/DMR/--
