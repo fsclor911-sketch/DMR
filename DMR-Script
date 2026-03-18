@@ -14,5 +14,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/fsclor911-sketch/DMR/
 
 wait(1.5)
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/fsclor911-sketch/DMR/refs/heads/main/DMR-v1"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fsclor911-sketch/DMR/refs/heads/main/DMR_2"))()
 -----------------------------------/DMR/--
